@@ -1,0 +1,22 @@
+.wrapper {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timer {
+    list-style: none;
+    display: flex;
+}
+.timer__items {
+    margin-right: 20px;
+    background-color: brown;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
