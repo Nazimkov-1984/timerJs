@@ -60,5 +60,15 @@ let deadline = '2020-12-31';
 timer('.timer', deadline);
 
 /******------------------------------- */
-console.log ({a:10} == {a:10});
-  
+let arr1 = ['Kolya', 'Olli','Anya' ];
+let arr2 = ['Anya','Kolya', 'Busya', 'Olli', 'Marianna', 'Tanya' ];
+let res = [];
+
+for (let i = 0; i<arr1.length; i++){
+    for(let j = 0; j < arr2.length; j++){
+        if (arr1[i] === arr2[j]) {
+            res[i] = arr2[j];
+        }
+    }
+}
+  console.log(res);
