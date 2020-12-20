@@ -1,3 +1,4 @@
+'use strict'
 const timer = (id, deadline) => {
     const getTimerRemaining = (endtime) => {
         const t = Date.parse(endtime) - Date.parse(new Date()),
@@ -55,5 +56,9 @@ const timer = (id, deadline) => {
 };
 
 
-let deadline = '2020-10-01';
+let deadline = '2020-12-31';
 timer('.timer', deadline);
+
+/******------------------------------- */
+console.log ({a:10} == {a:10});
+  
